@@ -1,0 +1,55 @@
+defaultContentLanguage = "pt"
+baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "pt"
+theme = "raditian-free-hugo-theme"
+
+[languages]
+  [languages.pt]
+    title = "Julia Gomes"
+    languageName = "Português"
+    weight = 1
+    [languages.pt.params]
+      emoji = "🇧🇷"
+  [languages.en]
+    title = "Julia Gomes"
+    languageName = "English"
+    weight = 2
+    [languages.en.params]
+      emoji = "🇬🇧"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "/css/custom.css"
+  [[params.plugins.css]]
+  URL = "/css/main.css"
+  [[params.plugins.css]]
+  URL = "/css/rad-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "/js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "/js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "/js/library/fontfaceobserver.js"
+
+
+[params]
+  displayFullLangName = true
+
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Julia"
+    text2 = "Gomes"
+
+  [params.footer]
+    copyright = "2023 © Julia's Portfolio. Published with Hugo."
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,10 @@
+<img
+  class="lozad img-responsive card-img"
+  src="{{ .Destination | safeURL }}"
+  alt="{{ .Text }}"
+  {{ with .Title}}
+  title="{{ . }}"
+  {{ end }}
+  lozad img-responsive
+  loading="lazy"
+/>
