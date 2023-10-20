@@ -23,12 +23,12 @@ Pelas nossas vivências, acreditamos que a maioria das pessoas que se proponham 
 #### Resultados da pesquisa
 <br>
 
-![Resultados da pesquisa](/img/ihealthy/resultados.png)
+![Resultados da pesquisa](img/ihealthy/resultados.png)
 
 #### Canvas da proposta de valor
 Agora sabemos que a hipótese inicial estava certa e que temos um público considerável que vê valor no plano nutricional (podemos perceber isso com a elevada porcentagem de pessoas que já seguiu e segue uma dieta), mas que necessita de um "empurrãozinho" a mais para conseguir cumprir o planejamento alimentar (isso fica evidente devido ao alto número de desistências). Para pensar em como conectar tudo da melhor forma, fizemos o Canvas da proposta de valor. Nele é possível visualizar como nossa solução aliviaria as dores dos usuários, levando em conta seus objetivos e tarefas.
 
-![Resultados da pesquisa](/img/ihealthy/proposta-valor.png)
+![Resultados da pesquisa](img/ihealthy/proposta-valor.png)
 
 #### Conceituando a solução
 De maneira prática, na primeira etapa do aplicativo algumas perguntas seriam feitas para entender como estão as medidas da pessoa e qual seria seu objetivo pessoal principal em termos de saúde e estética (emagrecer, manter peso, ganhar massa). Posteriormente, seria utilizado uma calculadora que permita saber quais seriam as calorias aproximadas que ela deve consumir diariamente para alcançar esse objetivo, levando em conta suas medidas e nível de sedentarismo.
@@ -44,12 +44,12 @@ Utilizar o sistema usual de Delivery de comida também ajuda na questão da rota
 #### Arquitetura de informação
 A fim de que os conteúdos dispostos no aplicativo estejam da maneira mais compreensível possível, organizamos a Arquitetura de informação abaixo.
 
-![Resultados da pesquisa](/img/ihealthy/arquitetura.png)
+![Resultados da pesquisa](img/ihealthy/arquitetura.png)
 
 #### Guia de estilo
 O próximo passo realizado foi a definição do Guia de estilos. Ele servirá como base para os elementos da interface a fim de que as telas tenham um padrão de consistência.
 
-![Resultados da pesquisa](/img/ihealthy/guia.png)
+![Resultados da pesquisa](img/ihealthy/guia.png)
 
 #### Telas
 Após finalizar os wireframes, realizamos o protótipo de alta fidelidade. As telas que você visualizará abaixo foram testadas na etapa seguinte.
@@ -93,7 +93,7 @@ Dado os insights do teste de usabilidade, ficou claro que para a melhor experiê
 
 Portanto, as telas relativas ao pagamento e de "compra efetuada" foram atualizadas da seguinte maneira:
 
-![Tela](/img/ihealthy/screens/pos-teste.png)
+![Tela](img/ihealthy/screens/pos-teste.png)
 
 #### Conclusão
 O objetivo inicial era auxiliar os usuários a cumprirem sua dieta de forma mais prática e, assim, promover bem estar físico e emocional.

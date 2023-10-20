@@ -41,14 +41,14 @@ Para além disso, observamos também que quando se fala em dívidas não apenas 
 #### Persona e Jornada do usuário
 Para começar a pensar em oportunidades, é necessário primeiro entender quem é nosso público alvo, para depois desenhar suas dores e finalmente esboçar uma solução. Para a construção dessa representação utilizamos o recurso de Personas. Já para um entendimento ainda mais aprofundado do contexto em que tal Persona está inserida, usamos o Mapa da jornada do usuário.
 
-![Persona](/img/nubank/persona.png)
+![Persona](img/nubank/persona.png)
 
-![Jornada do Usuário](/img/nubank/jornada.png)
+![Jornada do Usuário](img/nubank/jornada.png)
 
 #### Impacto VS Esforço
 Entendido o cenário que leva o usuário (representado por Jéssica) a contrair dívidas, o próximo passo foi usar a matriz Impacto VS Esforço para definir as melhores oportunidades a serem contempladas. As soluções escolhidas estão no quadrante superior esquerdo que representam as de maior impacto à Jéssica e menor esforço a ser empregado para desenvolver.
 
-![Matriz de priorização](/img/nubank/matriz.png)
+![Matriz de priorização](img/nubank/matriz.png)
 
 #### Explicação da matriz
 ##### Avisar previamente o dia que cada despesa vai ser descontada: 
