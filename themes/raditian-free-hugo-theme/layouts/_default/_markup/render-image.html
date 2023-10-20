@@ -1,6 +1,6 @@
 <img
   class="lozad img-responsive card-img"
-  src="{{ .Destination | safeURL }}"
+  src="{{ .Destination | absURL }}"
   alt="{{ .Text }}"
   {{ with .Title}}
   title="{{ . }}"
