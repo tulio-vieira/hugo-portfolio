@@ -3,7 +3,7 @@
     
     <img
         class="lozad img-responsive card-img"
-        src='{{ ($image.Resize "300x png q85").RelPermalink }}'
+        src='{{ ($image.Resize "300x png q95").RelPermalink }}'
         {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }}
         loading="lazy"
     >

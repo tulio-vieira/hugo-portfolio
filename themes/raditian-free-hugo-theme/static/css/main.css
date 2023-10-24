@@ -10702,3 +10702,19 @@ textarea:focus {
 .section li::before {
   background-color: var(--paragraph-color);
 }
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 8px;
+}
+@media (max-width: 768px) {
+  .img-grid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (max-width: 576px)  {
+  .img-grid {
+    grid-template-columns: repeat(1, auto);
+  }
+}

@@ -82,15 +82,8 @@ According to the information already presented, two new features were added to t
 The next and final step was to design the screens that include the new features. It is important to highlight that before the entire ideation process, we carried out a thorough study of Nubank's brand guidelines and its Style Guide. This guided us throughout the production process, so that we have consistency and veracity in the interfaces. This material that we use as a reference source can be found in this [link](https://brand.nu.com.br/pt/).
 
 ##### Nu Controle
-<style>
-.img-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-}
-</style>
-<div class="img-flex">
+
+<div class="img-grid">
 {{< img src="images/nubank/telas-nu-controle/0.png" alt="telas-nu-controle/0" >}}
 {{< img src="images/nubank/telas-nu-controle/1.png" alt="telas-nu-controle/1" >}}
 {{< img src="images/nubank/telas-nu-controle/2.png" alt="telas-nu-controle/2" >}}
@@ -103,7 +96,7 @@ The next and final step was to design the screens that include the new features.
 <br>
 
 ##### Nu Facilitação
-<div class="img-flex">
+<div class="img-grid">
 {{< img src="images/nubank/telas-nu-facilitacao/0.png" alt="telas-nu-facilitacao/0" >}}
 {{< img src="images/nubank/telas-nu-facilitacao/1.png" alt="telas-nu-facilitacao/1" >}}
 {{< img src="images/nubank/telas-nu-facilitacao/2.png" alt="telas-nu-facilitacao/2" >}}

@@ -82,15 +82,8 @@ De acordo com as informações já apresentadas, chegou-se em duas novas feature
 O próximo e último passo foi desenhar as telas que contemplem as novas features. Importante ressaltar que antes de todo o processo de ideação, fizemos um denso estudo das diretrizes de marca da Nubank e seu Guia de estilos. Isso nos guiou durante todo o processo de produção, a fim de que tenhamos consistência e veracidade nas interfaces. Este material que utilizamos como fonte de consulta pode ser encontrado [neste link](https://brand.nu.com.br/pt/).
 
 ##### Nu Controle
-<style>
-.img-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-}
-</style>
-<div class="img-flex">
+
+<div class="img-grid">
 {{< img src="images/nubank/telas-nu-controle/0.png" alt="telas-nu-controle/0" >}}
 {{< img src="images/nubank/telas-nu-controle/1.png" alt="telas-nu-controle/1" >}}
 {{< img src="images/nubank/telas-nu-controle/2.png" alt="telas-nu-controle/2" >}}
@@ -103,7 +96,7 @@ O próximo e último passo foi desenhar as telas que contemplem as novas feature
 <br>
 
 ##### Nu Facilitação
-<div class="img-flex">
+<div class="img-grid">
 {{< img src="images/nubank/telas-nu-facilitacao/0.png" alt="telas-nu-facilitacao/0" >}}
 {{< img src="images/nubank/telas-nu-facilitacao/1.png" alt="telas-nu-facilitacao/1" >}}
 {{< img src="images/nubank/telas-nu-facilitacao/2.png" alt="telas-nu-facilitacao/2" >}}

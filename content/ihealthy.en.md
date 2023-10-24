@@ -59,15 +59,7 @@ The next step was to define the Style Guide. It will serve as the basis for the 
 #### Screens
 After finalizing the wireframes, we created the high-fidelity prototype. The screens you will see below were tested in the next step.
 
-<style>
-.img-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-}
-</style>
-<div class="img-flex">
+<div class="img-grid">
 {{< img src="images/ihealthy/screens/0.png" alt="0">}}
 {{< img src="images/ihealthy/screens/1.png" alt="0">}}
 {{< img src="images/ihealthy/screens/2.png" alt="0">}}

@@ -59,15 +59,7 @@ O próximo passo realizado foi a definição do Guia de estilos. Ele servirá co
 #### Telas
 Após finalizar os wireframes, realizamos o protótipo de alta fidelidade. As telas que você visualizará abaixo foram testadas na etapa seguinte.
 
-<style>
-.img-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-}
-</style>
-<div class="img-flex">
+<div class="img-grid">
 {{< img src="images/ihealthy/screens/0.png" alt="0">}}
 {{< img src="images/ihealthy/screens/1.png" alt="0">}}
 {{< img src="images/ihealthy/screens/2.png" alt="0">}}
