@@ -1,42 +1,41 @@
 ---
 # homepage
-homepage:
-  head:
-    title: "Home | Raditian"
+head:
+  title: "Julia Gomes"
 # showcase
 showcase:
   enable: true
   title: "Hello, I'm Julia"
   subtitle: "UI/UX Designer"
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  description: "Nice to meet you! My name is Julia, but you can call me Ju. I consider myself an eternal learner and I'm just at the beginning of a journey of creating and developing many user-friendly digital products!"
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "img/showcase/showcase.png"
 
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "#contact"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
+      URL: "https://br.linkedin.com/in/juliagomes10"
 
-    - icon: "github"
-      URL: "https://github.com/radity"
+    - icon: "medium"
+      URL: "https://julia-gomes.medium.com"
 
     # - icon: "twitter"
     #   URL: "https://twitter.com/radity"
 
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
+    # - icon: "dribbble"
+    #   URL: "https://dribbble.com/radity"
 
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
+    # - icon: "behance"
+    #   URL: "https://www.behance.net/radity-digital"
 
     # - icon: "youtube"
     #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
@@ -56,138 +55,144 @@ showcase:
 # about
 about:
   enable: true
-  title: "Who am I?"
+  title: "About me"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
-    </p>
-    <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+    As a designer, I work in a facilitating position, balancing user needs, the technical feasibility of solutions and business objectives. But I think UX is a commitment from everyone on the team, not just the designer. I believe that a team that has a sense of ownership and cooperation can evolve to unimaginable levels!
     </p>'
   button:
     icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    btnText: "Linkedin"
+    URL: "https://br.linkedin.com/in/juliagomes10"
   image:
     x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    _2x: "img/who-am-i/user-picture.png"
 
 # education
 education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "University of Brasília"
+      link: https://www.unb.br/
+      year: "2021-2026"
+      degree: "Bachelor of Pharmacy"
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "UX Unicórnio Program"
+      link: https://uxunicornio.com.br/
+      year: "2022-2023"
+      degree: "Complete certification in design and digital products."
+
+    - university: "The Odin Project"
+      link: https://www.theodinproject.com/
+      year: "2022-2023"
+      degree: "Front-end development"
+
+    - university: "Project Management with Scrum"
+      link: https://www.udemy.com/course/gestao-projetos-agile-scrum-completo/learn/lecture/20719726
+      year: "2022-2023"
+      degree: "This certification is about agile project management with an emphasis on Scrum. In addition, some other topics such as leadership, negotiation and productivity were covered."
 
 # experience
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "With almost two years of experience in the job market, I have worked from the commercial area of a junior company to Project Analyst at an innovative Startup in Curitiba."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://br.linkedin.com/in/juliagomes10"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "#"
+    btnText: "Curriculum"
+    URL: "curriculum/curriculo-juliagomes.pdf"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Project Analyst"
+      company: "Haze Shift"
+      link: https://hazeshift.com.br/
+      duration: "2023"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Personal assitance of Product Owner"
+      company: "Self Employed"
+      duration: "2022"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Commercial director"
+      company: "Terapêutica Júnior"
+      link: https://br.linkedin.com/company/terapeuticajr
+      duration: "2022"
 
 # Client & Work
 client_and_work:
-  title: "Clients & Works"
+  title: "Cases"
   enable: true
+  # clients:
+  #   - logo:
+  #       x: "img/clients/asgardia.png"
+  #       _2x: "img/clients/asgardia@2x.png"
+  #     alt: "Asgardia"
 
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+  #   - logo:
+  #       x: "img/clients/earth-2.png"
+  #       _2x: "img/clients/earth-2@2x.png"
+  #     alt: "Earth 2.0"
 
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+  #   - logo:
+  #       x: "img/clients/goldline.png"
+  #       _2x: "img/clients/goldline@2x.png"
+  #     alt: "Goldline"
 
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
+  #   - logo:
+  #       x: "img/clients/kanba.png"
+  #       _2x: "img/clients/kanba@2x.png"
+  #     alt: "Kanba"
 
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
+  #   - logo:
+  #       x: "img/clients/zoo-tv.png"
+  #       _2x: "img/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
 
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+  #   - logo:
+  #       x: "img/clients/ztos.png"
+  #       _2x: "img/clients/ztos@2x.png"
+  #     alt: "Ztos"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Nu Controle e Nu Facilitação"
+      description: "Development of new features for Nubank app."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "en/my-page"
+        btnText: "View"
+        URL: "en/nubank"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/cover-nubank.png"
+        _2x: "img/works/cover-nubank.png"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "IHealthy"
+      description: "Personal project of a food delivery application."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "View"
+        URL: "en/ihealthy"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/cover-ihealthy.png"
+        _2x: "img/works/cover-ihealthy.png"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
+    # - title: "Robo Advisor"
+    #   description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Case Study"
+    #     URL: "#"
+    #   image:
+    #     x: "img/works/robo-advisor.jpg"
+    #     _2x: "img/works/robo-advisor@2x.jpg"
+    #   is_even: true
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
@@ -216,14 +221,16 @@ contact:
   enable: true
   title: "Contact"
   form:
-    method: "POST"
-    action: "#"
+    action: "https://api.web3forms.com/submit"
+    access_key: "61b89ac2-ed1a-4a5d-9f6d-87defa11df29"
+    success_msg: Form successfully submitted!
+    error_msg: Error sending form...
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+55 (61) 99989 6284"
+    number: "+55 (61) 99989-6284"
   email:
     title: "Email"
     email: '<a href="mailto:juhalbuq10@gmail.com">juhalbuq10@gmail.com</a>'
@@ -245,10 +252,10 @@ newsletter:
 # navigation
 menu:
   header:
-    - name: About
+    - name: About me
       URL: '#about'
       weight: 2
-    - name: Portfolio
+    - name: Cases
       URL: '#portfolio'
       weight: 3
     - name: Contact

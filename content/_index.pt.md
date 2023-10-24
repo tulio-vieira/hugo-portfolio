@@ -1,12 +1,11 @@
 ---
 # homepage
-homepage:
-  head:
-    title: "Home | Raditian"
+head:
+  title: "Julia Gomes"
 # showcase
 showcase:
   enable: true
-  title: "Oi, eu sou a Júlia"
+  title: "Olá, eu sou a Júlia"
   subtitle: "UI/UX Designer"
   description: "Prazer! Meu nome é Júlia, mas pode me chamar de Ju. Me considero uma eterna aprendiz e estou apenas no começo de uma jornada de criação e desenvolvimento de produtos digitais mais amigáveis!"
   image:
@@ -26,17 +25,17 @@ showcase:
     - icon: "linkedin"
       URL: "https://br.linkedin.com/in/juliagomes10"
 
-    - icon: "github"
-      URL: "https://github.com/radity"
+    - icon: "medium"
+      URL: "julia-gomes.medium.com"
 
     # - icon: "twitter"
     #   URL: "https://twitter.com/radity"
 
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
+    # - icon: "dribbble"
+    #   URL: "https://dribbble.com/radity"
 
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
+    # - icon: "behance"
+    #   URL: "https://www.behance.net/radity-digital"
 
     # - icon: "youtube"
     #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
@@ -56,13 +55,13 @@ showcase:
 # about
 about:
   enable: true
-  title: "Quem sou eu?"
+  title: Sobre mim
   content: '<p class="lead">
-    Como designer, atuo numa posição facilitadora, equilibrando as necessidades dos usuários, a viabilidade técnica das soluções e os objetivos do negócio. Mas acho que UX é um compromisso de todos da equipe, não apenas do designer. Acredito que uma equipe que tenha senso de dono da empresa e cooperação pode evoluir a níveis inimagináveis! 
+    Como designer atuo em uma posição facilitadora, equilibrando as necessidades dos usuários, a viabilidade técnica das soluções e os objetivos do negócio. Mas acho que UX é um compromisso de todos da equipe, não apenas do designer. Acredito que uma equipe que tenha senso de dono da empresa e cooperação pode evoluir a níveis inimagináveis! 
     </p>'
   button:
     icon: "icon-smile-fill"
-    btnText: "Sobre mim"
+    btnText: "Linkedin"
     URL: "https://br.linkedin.com/in/juliagomes10"
   image:
     x: "img/who-am-i/user-picture.png"
@@ -74,16 +73,24 @@ education:
   title: "Educação"
   items:
     - university: "Universidade de Brasília"
+      link: https://www.unb.br/
       year: "2021-2026"
       degree: "Bacharelado em Farmácia"
 
     - university: "Programa UX Unicórnio"
+      link: https://uxunicornio.com.br/
       year: "2022-2023"
       degree: "Certificação completa em design e produtos digitais"
 
     - university: "The Odin Project"
+      link: https://www.theodinproject.com/
       year: "2022-2023"
       degree: "Desenvolvimento Front-end"
+
+    - university: "Gestão Ágil com Scrum"
+      link: https://www.udemy.com/course/gestao-projetos-agile-scrum-completo/learn/lecture/20719726
+      year: "2022-2023"
+      degree: "Esta certificação é sobre gerenciamento ágil de projetos com ênfase no Scrum. Além disso, foram abordados alguns outros temas como liderança, negociação e produtividade."
 
 # experience
 experience:
@@ -102,6 +109,7 @@ experience:
   items:
     - title: "Analista de projetos"
       company: "Haze Shift"
+      link: https://hazeshift.com.br/
       duration: "2023"
 
     - title: "Assessora pessoal de Product Owner"
@@ -110,11 +118,12 @@ experience:
 
     - title: "Diretora comercial"
       company: "Terapêutica Júnior"
+      link: https://br.linkedin.com/company/terapeuticajr
       duration: "2022"
 
 # Client & Work
 client_and_work:
-  title: "Projetos"
+  title: "Cases"
   enable: true
   # clients:
   #   - logo:
@@ -152,7 +161,7 @@ client_and_work:
       description: "Projeto pessoal de desenvolvimento de duas novas features para o aplicativo da Nubank."
       button:
         icon: "icon-arrow-right"
-        btnText: "Estudo de caso"
+        btnText: "Acessar"
         URL: "nubank"
       image:
         x: "img/works/cover-nubank.png"
@@ -163,7 +172,7 @@ client_and_work:
       description: "Projeto pessoal de criação de um aplicativo de Delivery."
       button:
         icon: "icon-arrow-right"
-        btnText: "Estudo de caso"
+        btnText: "Acessar"
         URL: "ihealthy"
       image:
         x: "img/works/cover-ihealthy.png"
@@ -212,14 +221,16 @@ contact:
   enable: true
   title: "Contato"
   form:
-    method: "POST"
-    action: "#"
+    action: "https://api.web3forms.com/submit"
+    access_key: "61b89ac2-ed1a-4a5d-9f6d-87defa11df29"
+    success_msg: Formulário enviado com sucesso!
+    error_msg: Erro no envio de formulário...
     full_name: "Nome Completo"
     email: "Endereço de email"
     message: "Escreva sua mensagem aqui"
   phone:
     title: "Telefone"
-    number: "+55 (61) 99989 6284"
+    number: "+55 (61) 99989-6284"
   email:
     title: "Email"
     email: '<a href="mailto:juhalbuq10@gmail.com">juhalbuq10@gmail.com</a>'
@@ -241,10 +252,10 @@ newsletter:
 # navigation
 menu:
   header:
-    - name: Sobre
+    - name: Sobre mim
       URL: '#about'
       weight: 2
-    - name: Portfolio
+    - name: Cases
       URL: '#portfolio'
       weight: 3
     - name: Contato

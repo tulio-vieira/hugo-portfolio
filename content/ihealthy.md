@@ -1,3 +1,8 @@
+---
+head:
+  title: IHealthy Case 
+---
+
 # IHealthy
 
 <h2 style="font-weight: 300;">
@@ -103,3 +108,6 @@ As pesquisas indicaram que grande parte das pessoas já tentaram seguir um plano
 Foi então, que decidimos desenvolver a IHealthy, um aplicativo de Delivery aparentemente comum, mas que seleciona pratos condizentes com as calorias necessárias para cada indivíduo de forma personalizada. Essa modalidade de entrega de refeições garante uma variedade no cardápio e que as comidas sejam servidas quentes, conforme demostrado que era de extrema relevância para os usuários. 
 
 Existem muitos próximos passos no contexto da IHealthy. Desejamos adicionar novas features conforme as necessidades que os usuários forem relatando. Para tanto, ficaremos atentos as avaliações nas lojas de aplicativo e nos comprometemos a enviar NP´s mensais a fim de que possamos proporcionar sempre as melhores experiências para nossos usuários.
+
+
+Próximo case: [Nu controle e Nu facilitação](/nubank)

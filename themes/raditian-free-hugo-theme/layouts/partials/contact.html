@@ -5,26 +5,44 @@
             <h2>{{ .Params.contact.title }}</h2>
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
-                    <form action="{{ .Params.contact.form.action }}" method="{{ .Params.contact.form.method }}">
+                    <form id="contactForm">
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="full_name"
-                                       placeholder="{{ .Params.contact.form.full_name }}"/>
+                                <input
+                                    type="text"
+                                    name="fullName"
+                                    id="fullName"
+                                    autocomplete="off"
+                                    required
+                                    placeholder="{{ .Params.contact.form.full_name }}"
+                                />
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="email"
-                                       placeholder="{{ .Params.contact.form.email }}"/>
+                                <input
+                                    type="text"
+                                    name="email"
+                                    id="email"
+                                    autocomplete="off"
+                                    required
+                                    pattern=".+@.+\..+"
+                                    placeholder="{{ .Params.contact.form.email }}"/>
                             </div>
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                                <textarea name="" id="message"
-                                          cols="30" rows="3" placeholder="{{ .Params.contact.form.message }}"></textarea>
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    autocomplete="off"
+                                    required
+                                    cols="30"
+                                    rows="3"
+                                    placeholder="{{ .Params.contact.form.message }}"></textarea>
                             </div>
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary" id="contactSubmit">
                                     <i class="{{ .Params.contact.button.icon }}"></i>
                                     {{ .Params.contact.button.btnText }}
                                 </button>
@@ -43,5 +61,43 @@
             </div>
         </div>
     </div>
+    <script>
+        let loginForm = document.getElementById("contactForm");
+        loginForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            let fullName = document.getElementById("fullName")
+            let email = document.getElementById("email")
+            let message = document.getElementById("message")
+            let contactSubmit = document.getElementById("contactSubmit");
+
+            fullName.disabled = true
+            email.disabled = true
+            message.disabled = true
+            contactSubmit.disabled = true
+
+            let action = "{{ .Params.contact.form.action }}"
+            let access_key = "{{ .Params.contact.form.access_key }}"
+            let successMsg = "{{ .Params.contact.form.success_msg }}"
+            let errMsg = "{{ .Params.contact.form.error_msg }}"
+
+
+            // handle submit
+            fetch(action, {
+                method: "POST",
+                body: JSON.stringify({
+                    fullName: fullName.value,
+                    email: email.value,
+                    message: message.value,
+                    access_key
+                }),
+                headers: {
+                    "Content-type": "application/json; charset=UTF-8"
+                }
+            })
+            .then((res) => res.ok ? alert(successMsg) : alert(errMsg))
+        });
+
+    </script>
 </section>
 {{ end }}

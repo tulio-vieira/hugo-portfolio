@@ -9,7 +9,13 @@
                     <div class="col-12 col-sm-6 mb-4 mb-sm-0" style="margin-bottom: 8px !important;">
                         <div class="education">
                             <div class="education__date">{{ .year }}</div>
-                            <div class="education__title">{{ .university }}</div>
+                            <div class="education__title">
+                            {{ if .link }}
+                            <a href="{{ .link }}" style="color: var(--font-color)" target="_blank">{{ .university }}↗</a>
+                            {{ else }}
+                            {{ .university }}
+                            {{ end }}
+                            </div>
                             <div class="education__degree">
                                 {{ .degree }}
                             </div>

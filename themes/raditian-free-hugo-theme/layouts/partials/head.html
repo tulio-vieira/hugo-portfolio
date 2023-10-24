@@ -29,9 +29,10 @@
     shortLang = shortLang.split('_')[0];
 
     let langRedirect = localStorage.getItem("langRedirect")
+    localStorage.setItem("lastLang", "{{ site.Language }}")
     if (
         shortLang === "en" &&
-        !window.location.pathname.startsWith("/" + shortLang) &&
+        !window.location.pathname.startsWith("/" + shortLang + "/") &&
         langRedirect !== "false"
     ) {
         window.location.replace('./' + shortLang + "/");

@@ -7,7 +7,13 @@
                 <div class="experience">
                     <div class="experience__date">{{ .duration }}</div>
                     <div class="experience__title">{{ .title }}</div>
-                    <div class="experience__company">{{ .company }}</div>
+                    <div class="experience__company">
+                    {{ if .link }}
+                    <a href="{{ .link }}" style="color: inherit" target="_blank">{{ .company }}↗</a>
+                    {{ else }}
+                    {{ .company }}
+                    {{ end }}
+                    </div>
                 </div>
                 {{ end }}
             </div>
