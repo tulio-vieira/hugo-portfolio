@@ -222,7 +222,7 @@ contact:
   title: "Contact"
   form:
     action: "https://api.web3forms.com/submit"
-    access_key: "61b89ac2-ed1a-4a5d-9f6d-87defa11df29"
+    access_key: "17471b65-a71c-41eb-9a0b-89da922edae4"
     success_msg: Form successfully submitted!
     error_msg: Error sending form...
     full_name: "Full Name"

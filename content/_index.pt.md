@@ -26,7 +26,7 @@ showcase:
       URL: "https://br.linkedin.com/in/juliagomes10"
 
     - icon: "medium"
-      URL: "julia-gomes.medium.com"
+      URL: "https://julia-gomes.medium.com"
 
     # - icon: "twitter"
     #   URL: "https://twitter.com/radity"
@@ -222,7 +222,7 @@ contact:
   title: "Contato"
   form:
     action: "https://api.web3forms.com/submit"
-    access_key: "61b89ac2-ed1a-4a5d-9f6d-87defa11df29"
+    access_key: "17471b65-a71c-41eb-9a0b-89da922edae4"
     success_msg: Formulário enviado com sucesso!
     error_msg: Erro no envio de formulário...
     full_name: "Nome Completo"
