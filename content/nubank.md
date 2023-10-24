@@ -132,4 +132,4 @@ Daqui para frente, nos comprometemos a continuar atentos as demandas das pessoas
 [//]: # (Analisar se o tamanho das artes ficou bom ou se é necessário adicionar um link para o Figma)
 
 
-Próximo case: [Aplicativo IHealthy](/ihealthy)
+Próximo case: [Aplicativo IHealthy](../ihealthy)

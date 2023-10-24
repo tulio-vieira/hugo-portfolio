@@ -132,4 +132,4 @@ From now on, we are committed to remaining attentive to people's demands so that
 [//]: # (Analisar se o tamanho das artes ficou bom ou se é necessário adicionar um link para o Figma)
 
 
-Next case: [IHealthy App](/en/ihealthy)
+Next case: [IHealthy App](../ihealthy)
