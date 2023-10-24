@@ -9,13 +9,13 @@ theme = "raditian-free-hugo-theme"
     languageName = "Português"
     weight = 1
     [languages.pt.params]
-      emoji = "🇧🇷"
+      emoji = "img/svgs/brazil-svgrepo-com.svg"
   [languages.en]
     title = "Julia Gomes"
     languageName = "English"
     weight = 2
     [languages.en.params]
-      emoji = "🇬🇧"
+      emoji = "img/svgs/united-kingdom-uk-svgrepo-com.svg"
 
 # Plugins
 [params.plugins]

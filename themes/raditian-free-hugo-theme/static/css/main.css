@@ -4410,7 +4410,7 @@ input[type="submit"].btn-block {
   display: flex;
 }
 .toggles a {
-  margin: 4px 8px 0px 8px;
+  margin: 2px 8px 0px 8px;
 }
 .toggles .btn, * {
   padding: 0;

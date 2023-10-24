@@ -51,7 +51,7 @@
               {{ if (eq .Lang $specificLang) }}
                 <a href="{{ .Permalink }}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
                 aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                {{- .Language.Params.emoji -}}
+                <img src="{{ .Language.Params.emoji | absURL }}" style="width: 24px;" alt="{{ .Lang }}" loading="lazy"/>
                 </a>
               {{ end }}
             {{ end }}
