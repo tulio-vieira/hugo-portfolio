@@ -88,7 +88,7 @@ education:
       degree: "Desenvolvimento Front-end"
 
     - university: "Gestão Ágil com Scrum"
-      link: https://www.udemy.com/course/gestao-projetos-agile-scrum-completo/learn/lecture/20719726
+      link: https://www.udemy.com/course/gestao-projetos-agile-scrum-completo/
       year: "2022-2023"
       degree: "Esta certificação é sobre gerenciamento ágil de projetos com ênfase no Scrum. Além disso, foram abordados alguns outros temas como liderança, negociação e produtividade."
 

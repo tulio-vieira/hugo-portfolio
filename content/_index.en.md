@@ -88,7 +88,7 @@ education:
       degree: "Front-end development"
 
     - university: "Project Management with Scrum"
-      link: https://www.udemy.com/course/gestao-projetos-agile-scrum-completo/learn/lecture/20719726
+      link: https://www.udemy.com/course/gestao-projetos-agile-scrum-completo/
       year: "2022-2023"
       degree: "This certification is about agile project management with an emphasis on Scrum. In addition, some other topics such as leadership, negotiation and productivity were covered."
 
@@ -116,7 +116,7 @@ experience:
       company: "Self Employed"
       duration: "2022"
 
-    - title: "Commercial director"
+    - title: "Commercial Director"
       company: "Terapêutica Júnior"
       link: https://br.linkedin.com/company/terapeuticajr
       duration: "2022"
