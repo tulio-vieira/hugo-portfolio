@@ -24,7 +24,7 @@ a.badge:hover,
 a:not([href]):not([tabindex]),
 a:not([href]):not([tabindex]):focus,
 a:not([href]):not([tabindex]):hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .accordion > .card,
 .collapsing,
