@@ -102,6 +102,6 @@ Foi então, que decidimos desenvolver a IHealthy, um aplicativo de Delivery apar
 Existem muitos próximos passos no contexto da IHealthy. Desejamos adicionar novas features conforme as necessidades que os usuários forem relatando. Para tanto, ficaremos atentos as avaliações nas lojas de aplicativo e nos comprometemos a enviar NP´s mensais a fim de que possamos proporcionar sempre as melhores experiências para nossos usuários.
 
 <a href="../nubank" class="btn btn-primary">
-Nu controle e Nu facilitação
+Próximo Case
 <i class="icon-arrow-right"></i>
 </a>

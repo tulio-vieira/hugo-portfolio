@@ -102,6 +102,6 @@ It was then that we decided to develop IHealthy, an apparently common Delivery a
 There are many next steps in the context of IHealthy. We want to add new features according to the needs that users report. To this end, we will keep an eye on reviews in app stores and commit to sending monthly NPs so that we can always provide the best experiences for our users.
 
 <a href="../nubank" class="btn btn-primary">
-Nu control and Nu facilitation
+Next Case
 <i class="icon-arrow-right"></i>
 </a>

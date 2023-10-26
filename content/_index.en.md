@@ -104,7 +104,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Curriculum"
-    URL: "curriculum/curriculo-juliagomes.pdf"
+    URL: "curriculum/resume-julia-gomes-en.pdf"
 
   items:
     - title: "Project Analyst"

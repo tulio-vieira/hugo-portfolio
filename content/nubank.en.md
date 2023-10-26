@@ -126,6 +126,6 @@ From now on, we are committed to remaining attentive to people's demands so that
 
 
 <a href="../ihealthy" class="btn btn-primary">
-IHealthy App
+Next Case
 <i class="icon-arrow-right"></i>
 </a>

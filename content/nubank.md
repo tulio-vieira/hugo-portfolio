@@ -126,6 +126,6 @@ Daqui para frente, nos comprometemos a continuar atentos as demandas das pessoas
 
 
 <a href="../ihealthy" class="btn btn-primary">
-Aplicativo IHealthy
+Próximo Case
 <i class="icon-arrow-right"></i>
 </a>
