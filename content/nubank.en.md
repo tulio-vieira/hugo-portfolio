@@ -44,7 +44,7 @@ After research, we realized that the most accurate thing to say would be that pe
 Furthermore, we also observed that when talking about debt, not only does personal control influence it, but external factors can also affect it. No matter how controlled a person is, if they are affected by a health problem and have to spend a lot on medical bills, they will possibly go into debt because the money coming in is less than the amount they have to spend on their health. And this is regardless of whether or not you have a spreadsheet with your expenses, for example.
 
 #### Persona and User Journey
-To start thinking about opportunities, it is first necessary to understand who our target audience is, then outline their pain points and finally outline a solution. To build this representation we use the Personas resource. For an even deeper understanding of the context in which this Persona is inserted, we use the User Journey Map.
+To start thinking about opportunities, it is first necessary to understand who our target audience is, then outline their pain points and finally outline a solution. To build this representation we use the !!!!!!!!! resource. For an even deeper understanding of the context in which this Persona is inserted, we use the User Journey Map.
 
 ![Persona](img/nubank/persona.png)
 
