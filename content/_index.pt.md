@@ -90,7 +90,7 @@ education:
     - university: "Gestão Ágil com Scrum"
       link: https://www.udemy.com/course/gestao-projetos-agile-scrum-completo/
       year: "2022-2023"
-      degree: "Gerenciamento ágil de projetos com ênfase no Scrum."
+      degree: "Gerenciamento ágil de projetos com ênfase no Scrum"
 
 # experience
 experience:

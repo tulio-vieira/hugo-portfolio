@@ -90,7 +90,7 @@ education:
     - university: "Project Management with Scrum"
       link: https://www.udemy.com/course/gestao-projetos-agile-scrum-completo/
       year: "2022-2023"
-      degree: "Agile project management with an emphasis on Scrum."
+      degree: "Agile project management with an emphasis on Scrum"
 
 # experience
 experience:
